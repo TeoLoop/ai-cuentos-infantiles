@@ -34,7 +34,7 @@ export async function POST(req: Request) {
   // Voice ID de "Bill" (Narrador cinematográfico muy bueno en español)
   voice: "pqHfZKP75CvOlQylNhV4", 
   text: storyText,
-  model_id: "eleven_multilingual_v2", // El modelo v2 es clave para el acento
+  model_id: "eleven_turbo_v2_5", // El modelo v2 es clave para el acento
   voice_settings: {
     stability: 0.45,       // Menos estabilidad = más emoción y variedad de tono
     similarity_boost: 0.8, // Mayor similitud para mantener el acento claro
