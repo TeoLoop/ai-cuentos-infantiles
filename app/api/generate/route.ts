@@ -10,7 +10,7 @@ export async function POST(req: Request) {
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY!);
     
     // Usamos Gemini 3 Flash que es el que tienes en tu panel
-    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-3-flash" });
 
     const prompt = `Escribe un cuento infantil para un niño de ${age} años llamado ${childName}. El tema es ${theme}. Sé breve (150 palabras) y mágico.`;
 
