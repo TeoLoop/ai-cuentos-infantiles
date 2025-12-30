@@ -12,7 +12,7 @@ export async function POST(req: Request) {
     // Usamos Gemini 3 Flash que es el que tienes en tu panel
     const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
-    const prompt = `Escribe un cuento infantil para un niño de ${age} años llamado ${childName}. El tema es ${theme}. Sé breve (250 palabras) y mágico.`;
+    const prompt = `Escribe un cuento infantil para un niño de ${age} años llamado ${childName}. El tema es ${theme}. Sé breve (150 palabras) y mágico.`;
 
     // SEGÚN TU DOCUMENTACIÓN: Para Gemini 3 la temperatura DEBE ser 1.0
     const result = await model.generateContent({
