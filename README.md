@@ -4,6 +4,9 @@
 
 **Cuentos Mágicos IA** es una aplicación web increíblemente estética diseñada para crear experiencias narrativas únicas para niños. Utilizando la potencia de **Google Gemini 3** para la generación de historias y **ElevenLabs** para una narración de voz ultra-realista con acento latino.
 
+<img width="1902" height="912" alt="imagen" src="https://github.com/user-attachments/assets/22502ac7-ab5a-452c-842f-9f8fd1831f2f" />
+
+
 ## ✨ Características Principales
 
 ### 🎨 UI/UX "Mind-blowing"
